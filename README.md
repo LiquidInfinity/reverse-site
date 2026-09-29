@@ -10,5 +10,5 @@ chat storage, or Supabase account syncing becomes active.
 
 The site is published from a dedicated GitHub repository. Its Pages custom
 domain is `usereverse.io`; the apex A records and `www` CNAME point to GitHub
-Pages. Clerk uses a separate subdomain. These public pages are intended for
-Google OAuth Branding once HTTPS certificate provisioning completes.
+Pages. Clerk uses a separate subdomain. Google OAuth Branding now points to
+the HTTPS URLs for these pages. Certificate provisioning is still pending.
