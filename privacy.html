@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <title>Privacy — Reverse</title>
+  <meta name="description" content="How the current Reverse macOS build handles account and local app data.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <a class="wordmark" href="/" aria-label="Reverse home">Reverse<span class="mark">↗</span></a>
+      <nav aria-label="Site navigation"><a href="/">Home</a><a href="/terms.html">Terms</a></nav>
+    </header>
+    <main class="policy">
+      <p class="eyebrow">Updated September 29, 2026</p>
+      <h1>Privacy at Reverse.</h1>
+      <p class="lede">This page describes the current Reverse macOS development build and this website. We will update it before new features change how personal data is collected or shared.</p>
+
+      <h2>Account and sign-in data</h2>
+      <p>Reverse uses Clerk to create accounts, sign you in, and maintain sessions. The app reads your Clerk user ID and primary email address to show your account and associate access with it. If you choose an email or password flow, Clerk processes the information you enter for that flow. Reverse does not put passwords or verification codes in its own app preferences.</p>
+
+      <h2>Continue with Google</h2>
+      <p>When you choose Google, Google and Clerk handle the sign-in exchange. Reverse requests only the basic identity information needed to sign you in, such as your Google account identifier, name, and email address when available. Reverse does not request access to your Gmail, Google Drive, Calendar, contacts, or files. We use the identity information to create or find your Reverse account and show its email in Profile. We do not use Google account data for advertising.</p>
+
+      <h2>Continue with Apple</h2>
+      <p>When you choose Apple, Apple and Clerk handle the sign-in exchange. Apple may provide an email address or a private relay address. Reverse uses the resulting account identity for sign-in and Profile.</p>
+
+      <h2>Data on your Mac</h2>
+      <p>Reverse stores setup choices and app preferences locally on your Mac. It may cache a confirmed account entitlement in macOS Keychain so an eligible feature can remain available while offline. Signing out removes that entitlement cache but keeps local preferences. The current build has no connected usage analytics in Profile or Usage &amp; billing; figures marked as samples on those pages are examples, not your activity.</p>
+
+      <h2>Permissions and developing features</h2>
+      <p>Setup may ask for macOS Screen Recording, Accessibility, and Microphone permissions. The timeline, capture, AI chat storage, and account synchronization features are still being developed in this build. The current build does not use these permissions to upload screen or microphone content. We will explain any such data flow before enabling it.</p>
+
+      <h2>This website and service providers</h2>
+      <p>This static website has no account form or advertising tracker. GitHub Pages hosts it and may process technical request data, such as an IP address, to deliver and protect the site. Clerk processes account and sign-in data. Apple or Google processes the sign-in flow when you select that provider. We do not sell account data.</p>
+
+      <h2>Retention and your choices</h2>
+      <p>Account data remains with Clerk while your account is active and as required for service operation. Local preferences remain on your Mac until you remove them. You can sign out in Reverse’s Profile settings. For account access, correction, or deletion requests, contact us at <a href="mailto:HeylonBraziel@gmail.com">HeylonBraziel@gmail.com</a>.</p>
+
+      <h2>Contact</h2>
+      <p>Questions about this policy or your Reverse account can be sent to <a href="mailto:HeylonBraziel@gmail.com">HeylonBraziel@gmail.com</a>.</p>
+    </main>
+    <footer><span>© 2026 Reverse</span><a href="/">Home</a><a href="/terms.html">Terms</a><a href="mailto:HeylonBraziel@gmail.com">Contact</a></footer>
+  </div>
+</body>
+</html>

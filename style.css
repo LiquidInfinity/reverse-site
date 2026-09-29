@@ -1,0 +1,29 @@
+:root{color-scheme:dark light;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;background:#11110f;color:#f5f4ed}
+*{box-sizing:border-box}
+body{margin:0}
+a{color:inherit;text-underline-offset:4px}
+.page{max-width:1180px;min-height:100vh;margin:auto;padding:0 48px;display:flex;flex-direction:column}
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:32px 0;border-bottom:1px solid #33332e}
+.topbar a{text-decoration:none}
+.wordmark{font-size:24px;font-weight:700;letter-spacing:-.07em}
+.mark{color:#eecb49;margin-left:4px}
+nav{display:flex;gap:22px}nav a,footer{font-size:14px;color:#b9b7ab}
+main{flex:1;padding:110px 0 64px}
+.eyebrow{font-size:13px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#eecb49}
+h1{max-width:850px;margin:28px 0;font-size:clamp(58px,8vw,104px);line-height:.98;letter-spacing:-.055em;font-weight:650}
+.lede{max-width:630px;color:#b9b7ab;font-size:clamp(19px,2.2vw,25px);line-height:1.45}
+.rule{height:1px;background:#4b4a41;margin:110px 0 42px}
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:36px;margin-top:36px}
+.features>div{border-top:1px solid #56544a;padding-top:16px}
+.features span{font-size:13px;color:#eecb49}
+.features h2{font-size:25px;letter-spacing:-.035em;margin:36px 0 8px}
+.features p,.footnote{font-size:16px;line-height:1.5;color:#aaa99f}
+.footnote{margin-top:100px;max-width:550px}
+footer{display:flex;gap:30px;padding:32px 0;border-top:1px solid #33332e}
+footer span{margin-right:auto}
+.policy{max-width:760px;padding-top:80px}
+.policy h1{font-size:clamp(50px,7vw,84px);margin-bottom:30px}
+.policy h2{font-size:24px;letter-spacing:-.03em;margin:48px 0 10px}
+.policy p:not(.eyebrow){font-size:17px;line-height:1.65;color:#c5c3b8}
+.policy .lede{font-size:21px!important}
+@media(max-width:700px){.page{padding:0 22px}.topbar{padding:23px 0}main{padding-top:75px}.features{grid-template-columns:1fr;gap:18px}.features h2{margin-top:15px}.rule{margin-top:70px}.footnote{margin-top:60px}footer{gap:15px;flex-wrap:wrap}.policy{padding-top:56px}}
